@@ -2,7 +2,7 @@ import { Head } from "$fresh/runtime.ts";
 import { PageProps } from "$fresh/server.ts";
 import i18n, { Language } from "../i18n.ts";
 import { FloatingClasses } from "../components/FloatingClasses.tsx";
-import { LoaderForm } from "../components/LoaderForm.tsx";
+import { DeckLoaderForm } from "../components/DeckLoaderForm.tsx";
 
 export default function Deck(props: PageProps<unknown, Language>) {
   const { language } = props.state;
@@ -19,7 +19,7 @@ export default function Deck(props: PageProps<unknown, Language>) {
             {t("loader.title")}
           </h1>
         </header>
-        <LoaderForm language={language} />
+        <DeckLoaderForm language={language} />
       </div>
       <FloatingClasses />
     </>

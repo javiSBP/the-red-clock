@@ -1,18 +1,17 @@
-import { JSX } from "preact";
-import { IS_BROWSER } from "$fresh/runtime.ts";
 import i18n from "../i18n.ts";
 
-interface LoaderFormProps {
+interface DeckLoaderFormProps {
   language: string | null;
 }
 
-export function LoaderForm(props: LoaderFormProps) {
+export function DeckLoaderForm(props: DeckLoaderFormProps) {
   const t = i18n(props.language);
 
   return (
     <section class="p-4 mx-auto max-w-screen-md h-full flex justify-center items-center flex-col">
       <div class="w-full h-14 inline-flex">
         <input
+          name="deckId"
           type="number"
           class="placeholder-shown:italic w-2/3 p-2.5 rounded-lg text-lg text-gray-500 border-indigo-300 border-2"
           placeholder={`${t("common.eg")} 2915442`}
