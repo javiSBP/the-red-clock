@@ -1,0 +1,10 @@
+{
+  "common": {
+    "title": "El Reloj Rojo",
+    "eg": "p.ej."
+  },
+  "loader": {
+    "title": "Empieza a simular",
+    "button": "Cargar mazo!"
+  }
+}

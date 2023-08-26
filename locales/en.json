@@ -1,0 +1,10 @@
+{
+  "common": {
+    "title": "The Red Clock",
+    "eg": "e.g."
+  },
+  "loader": {
+    "title": "Start simulating",
+    "button": "Load deck!"
+  }
+}
