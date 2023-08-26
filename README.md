@@ -1,4 +1,4 @@
-# The Red Clocl
+# The Red Clock
 
 Arkham Horror LCG draw simulator.
 
